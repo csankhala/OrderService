@@ -1,4 +1,4 @@
-package com.csankhala;
+package com.github.csankhala.ecommerce;
 
 import io.micronaut.runtime.EmbeddedApplication;
 import io.micronaut.test.extensions.junit5.annotation.MicronautTest;
