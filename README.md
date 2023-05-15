@@ -6,9 +6,9 @@ As a customer using an e-commerce website, I want my orders to be processed auto
 
 Acceptance Criteria:
 
-- When I add products to my shopping cart and proceed to checkout, the order service should subscribe to the "cart-updated" Kafka topic.
+- When I add products to my shopping cart and proceed to checkout, the order service should subscribe to the "cart-checkout" Kafka topic.
 
-- The order service should process incoming messages from the "cart-updated" topic to create a new order.
+- The order service should process incoming messages from the "cart-checkout" topic to create a new order.
 
 - The order service should use the product catalog service to retrieve product information for each item in the order.
 
